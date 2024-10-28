@@ -8,7 +8,7 @@ const prijmeni = prompt("Zadejte své příjmení bez diakritiky").trim();
 const jmenoCut = jmeno.slice(0, 3).toLowerCase();
 const prijmeniCut = prijmeni.slice(0, 5).toLowerCase();
 
-// Sestavení e-mailové adresy pomocí interpolace řetězců
+// Sestavení e-mailové adresy
 const email = `${prijmeniCut}${jmenoCut}@fit.cvut.cz`;
 
 // Výpis výsledku na stránku
