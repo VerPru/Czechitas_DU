@@ -1,5 +1,5 @@
 // Vytvoření HTML prvků přímo v JavaScriptu
-document.body.innerHTML += "<h2>Generátor e-mailové adresy ČVUT</h2>";
+document.body.innerHTML = "<h2>Generátor e-mailové adresy ČVUT</h2>";
 
 // Získání jména a příjmení od uživatele
 const jmeno = prompt("Zadejte své křestní jméno bez diakritiky").trim();
