@@ -1,4 +1,3 @@
-// Vytvoření HTML prvků přímo v JavaScriptu
 document.body.innerHTML = "<h2>Generátor e-mailové adresy ČVUT</h2>";
 
 // Získání jména a příjmení od uživatele
